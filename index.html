@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Mahasiswa Sistem Informasi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#beranda">Portofolio</a>
+    <button class="nav-toggle" type="button" aria-label="Buka menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" aria-label="Navigasi utama">
+      <a href="#tentang">Tentang</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Mahasiswa Sistem Informasi Semester 4</p>
+        <h1>Halo, saya <span>Nama Kamu</span></h1>
+        <p class="hero-text">
+          Saya tertarik pada analisis sistem, pengembangan web, basis data, dan pemanfaatan teknologi
+          untuk membantu proses bisnis menjadi lebih efektif.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#proyek">Lihat Proyek</a>
+          <a class="button secondary" href="#kontak">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="profile-card" aria-label="Ringkasan profil">
+        <div class="avatar">SI</div>
+        <h2>Nama Kamu</h2>
+        <p>Information Systems Student</p>
+        <ul>
+          <li>Semester 4</li>
+          <li>Web Development</li>
+          <li>Database & UI/UX</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="tentang" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Tentang Saya</p>
+        <h2>Belajar teknologi dengan sudut pandang bisnis.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          Saya adalah mahasiswa Sistem Informasi semester 4 yang sedang mengembangkan kemampuan di bidang
+          pemrograman web, perancangan basis data, analisis kebutuhan sistem, dan manajemen proyek teknologi.
+        </p>
+        <p>
+          Dalam setiap proyek, saya berusaha membuat solusi yang rapi, mudah digunakan, dan sesuai kebutuhan
+          pengguna. Saat ini saya aktif belajar HTML, CSS, JavaScript, SQL, serta dasar-dasar UI/UX.
+        </p>
+      </div>
+    </section>
+
+    <section id="keahlian" class="section muted">
+      <div class="section-heading">
+        <p class="eyebrow">Keahlian</p>
+        <h2>Hal yang sedang saya kuasai.</h2>
+      </div>
+      <div class="skills-grid">
+        <article>
+          <h3>Web Dasar</h3>
+          <p>HTML, CSS, JavaScript, responsive layout, dan struktur halaman yang mudah dipahami.</p>
+        </article>
+        <article>
+          <h3>Basis Data</h3>
+          <p>Perancangan ERD, normalisasi dasar, query SQL, dan pengelolaan data sederhana.</p>
+        </article>
+        <article>
+          <h3>Analisis Sistem</h3>
+          <p>Use case diagram, flowchart, kebutuhan pengguna, dan dokumentasi proses bisnis.</p>
+        </article>
+        <article>
+          <h3>Kolaborasi</h3>
+          <p>GitHub, presentasi proyek, pembagian tugas tim, dan komunikasi teknis yang jelas.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="proyek" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Proyek</p>
+        <h2>Contoh karya kuliah dan latihan.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-meta">Web App</div>
+          <h3>Sistem Informasi Perpustakaan</h3>
+          <p>Aplikasi sederhana untuk mencatat buku, anggota, peminjaman, dan pengembalian.</p>
+          <a href="#" aria-label="Lihat detail proyek Sistem Informasi Perpustakaan">Detail Proyek</a>
+        </article>
+        <article class="project-card">
+          <div class="project-meta">Database</div>
+          <h3>Desain Database Toko Online</h3>
+          <p>ERD dan rancangan tabel untuk produk, pelanggan, transaksi, dan laporan penjualan.</p>
+          <a href="#" aria-label="Lihat detail proyek Desain Database Toko Online">Detail Proyek</a>
+        </article>
+        <article class="project-card">
+          <div class="project-meta">UI/UX</div>
+          <h3>Prototype Aplikasi Jadwal Kuliah</h3>
+          <p>Rancangan antarmuka untuk membantu mahasiswa mengatur jadwal, tugas, dan pengingat.</p>
+          <a href="#" aria-label="Lihat detail proyek Prototype Aplikasi Jadwal Kuliah">Detail Proyek</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="kontak" class="section contact-section">
+      <div>
+        <p class="eyebrow">Kontak</p>
+        <h2>Mari terhubung.</h2>
+        <p>
+          Kamu bisa mengganti informasi di bawah ini dengan email, LinkedIn, Instagram, atau GitHub milikmu.
+        </p>
+      </div>
+      <div class="contact-list">
+        <a href="mailto:emailkamu@example.com">emailkamu@example.com</a>
+        <a href="https://github.com/username">github.com/username</a>
+        <a href="https://www.linkedin.com/in/username">linkedin.com/in/username</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Nama Kamu. Dibuat dengan HTML, CSS, dan JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
